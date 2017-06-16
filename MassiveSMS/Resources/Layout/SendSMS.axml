@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Resultado"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultados" />
+    <TextView
+        android:id="@+id/resultadosForma"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="formato" />
+    <TextView
+        android:text="Para usar modificadores dinamicos fijese en el formato y luego use {0},{1}, etc para acceder a los modificadores"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Mensaje"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="10.0dp"
+        android:paddingTop="35.0dp" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMensaje"
+        android:hint="Escribir mensaje aqui" />
+    <Button
+        android:text="Enviar Mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEnviar" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEstado"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="50dp" />
+</LinearLayout>

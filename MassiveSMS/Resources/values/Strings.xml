@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">MassiveSMS</string>
+    <string name="app_name">Simple SMS</string>
+  <string name="no_files_or_directories">No files or directories</string>
 </resources>
